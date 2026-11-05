@@ -1,0 +1,58 @@
+[
+  {
+    "id": "opening",
+    "name": "01 / GOOD WORK PAYS",
+    "title": "Small tasks. Useful work. NIM rewards.",
+    "subtitle": "Bountex · Nimiq Mini Apps · Earn",
+    "narration": "Bountex turns small, useful tasks into NIM rewards. Good work pays."
+  },
+  {
+    "id": "explore",
+    "name": "02 / FIND A BOUNTY",
+    "title": "Find something worth doing.",
+    "subtitle": "Reward · time · requirements",
+    "narration": "Find work in design, development, writing, research and community. Each bounty shows its reward, estimated time and deadline."
+  },
+  {
+    "id": "create",
+    "name": "03 / POST USEFUL WORK",
+    "title": "Clear tasks make good work possible.",
+    "subtitle": "One task · one worker · an offered NIM reward",
+    "narration": "Creators define the task, requirements and NIM reward. Rewards are offered, not escrowed. Creators pay directly after approving the work."
+  },
+  {
+    "id": "claim",
+    "name": "04 / CLAIM THE TASK",
+    "title": "Know the mission before you start.",
+    "subtitle": "Instructions · acceptance requirements · progress",
+    "narration": "Workers read the mission and acceptance requirements, then claim a task. Their workspace keeps the work and its progress visible."
+  },
+  {
+    "id": "submit",
+    "name": "05 / SUBMIT YOUR PROOF",
+    "title": "Show what you completed.",
+    "subtitle": "Notes · proof links · private evidence uploads",
+    "narration": "Submit notes, a proof link or private attachments. Drafts are preserved, and the creator can review the evidence."
+  },
+  {
+    "id": "review",
+    "name": "06 / REVIEW THE WORK",
+    "title": "A clear review keeps work moving.",
+    "subtitle": "Approve · request revision · reject with a reason",
+    "narration": "Creators approve submissions, request a revision with a reason, or reject the work. Approval and payment have distinct statuses."
+  },
+  {
+    "id": "receipt",
+    "name": "07 / PAYMENT STATUS",
+    "title": "A sample receipt, clearly labeled.",
+    "subtitle": "Preview receipt · no NIM transferred",
+    "narration": "This is a preview receipt. No NIM was sent. Live payouts stay pending until the backend matches the transaction and verifies a macro checkpoint."
+  },
+  {
+    "id": "closing",
+    "name": "08 / TRY BOUNTEX",
+    "title": "Do useful work. Earn NIM.",
+    "subtitle": "bountex.vercel.app · github.com/greyw0rks/bountex",
+    "narration": "Bountex is open-source, and the hosted demo uses mainnet. Native sign-in and a real reward transfer are the next acceptance checks."
+  }
+]

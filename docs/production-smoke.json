@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-11-05T13:52:36.186Z",
+  "title": "Bountex — Good work pays.",
+  "cards": 9,
+  "canvas": 1,
+  "overflow": false,
+  "errors": [],
+  "config": {
+    "configured": false,
+    "network": "testnet",
+    "paymentsReady": false
+  },
+  "closeVisible": true
+}

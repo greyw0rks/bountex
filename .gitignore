@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.local
+.vercel/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.atlas/
+.vercel
+.env*
+!.env.example
+demo-video/assets/
+demo-video/sequence-media/
+demo-video/output/

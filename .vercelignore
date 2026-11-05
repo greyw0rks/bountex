@@ -1,0 +1,12 @@
+.env
+.env.local
+.env.*.local
+.atlas/
+docs/
+tests/
+scripts/
+video/
+demo-video/
+playwright-report/
+test-results/
+*.tsbuildinfo

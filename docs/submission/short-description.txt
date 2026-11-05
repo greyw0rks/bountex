@@ -1,0 +1,1 @@
+Bountex helps builders and communities turn small tasks into NIM rewards. Workers claim bounties and submit proof; creators review the work and pay directly through Nimiq Pay, with clear progress and on-chain payment verification.

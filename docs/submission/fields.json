@@ -1,0 +1,18 @@
+{
+  "appName": "Bountex",
+  "category": "Earn",
+  "tagline": "Good work pays.",
+  "description": "Bountex helps builders and communities turn small tasks into NIM rewards. Workers claim bounties and submit proof; creators review the work and pay directly through Nimiq Pay, with clear progress and on-chain payment verification.",
+  "pricing": "Free",
+  "repoUrl": "https://github.com/greyw0rks/bountex",
+  "demoUrl": "https://bountex.vercel.app",
+  "videoUrl": "",
+  "contactEmail": "",
+  "teamName": "",
+  "teamMembers": [],
+  "xAccount": "",
+  "builderStory": "I built Bountex around a simple idea: people should be able to earn NIM by doing useful work. Builders need testers, writers, designers and researchers, and community members need a clear way to contribute and get paid.\n\nThe MVP follows a focused task flow: publish, claim, submit proof, review and pay. Nimiq Pay provides wallet access, signed login and the payment adapter. Private evidence uploads, clear task status and independent transaction checks support the work from submission to payment. Rewards are offered by creators and paid directly after approval.\n\nThe dark navy, periwinkle and lime interface uses Three.js and Framer Motion to make the experience approachable. I focused on keeping offered rewards, approvals and verified payments clear throughout the journey.",
+  "skoolPostUrl": "",
+  "socialPostUrl": "",
+  "heardAbout": ""
+}

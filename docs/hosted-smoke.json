@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-11-05T15:15:39.887Z",
+  "base": "https://bountex.vercel.app",
+  "deploymentId": "dpl_GNR1GT4irym7x5c8wciErsmZdaeD",
+  "checks": [
+    {
+      "path": "/api/config",
+      "status": 200,
+      "response": {
+        "configured": true,
+        "network": "mainnet",
+        "paymentsReady": true
+      }
+    },
+    {
+      "path": "/api/tasks",
+      "status": 200,
+      "response": []
+    }
+  ]
+}

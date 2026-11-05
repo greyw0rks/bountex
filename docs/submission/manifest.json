@@ -1,0 +1,63 @@
+{
+  "sourceForm": "https://miniappscompetition.com/submit",
+  "checkedDate": "2026-11-05",
+  "screenshotsUseLabeledPreview": true,
+  "previewReceiptIsRealPayment": false,
+  "images": [
+    {
+      "file": "01-explore.png",
+      "width": 1440,
+      "height": 1100,
+      "bytes": 338842,
+      "sha256": "1b8958f06de0e92e889edfa4c522ff1d11ce8900adde658803ea12bad4894312"
+    },
+    {
+      "file": "02-task-details.png",
+      "width": 390,
+      "height": 1100,
+      "bytes": 57413,
+      "sha256": "309b5b148de038798e8bbcdea79303339a5883129a86371bdf1f2aa5d792c71f"
+    },
+    {
+      "file": "03-create-bounty.png",
+      "width": 1440,
+      "height": 1180,
+      "bytes": 131568,
+      "sha256": "2883ef412715622867cf84b750680352b5a29a9c5855170e99892230e3b5acaf"
+    },
+    {
+      "file": "04-submit-work.png",
+      "width": 390,
+      "height": 1100,
+      "bytes": 55506,
+      "sha256": "c08995428d508125e6b126a32f6e4852e6476afd1de40340b9104a68c7a4d16a"
+    },
+    {
+      "file": "05-preview-receipt.png",
+      "width": 390,
+      "height": 1000,
+      "bytes": 92895,
+      "sha256": "70caf4d1892dfa223ca462fa4d9b125523921add43264a5897dd9cc3544512a8"
+    },
+    {
+      "file": "app-icon-512.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 11988,
+      "sha256": "29e6301f24eec70fd664c24aa4ca036ca42ff6859e2e5cd6f4fb1b7fb341e1e2"
+    },
+    {
+      "file": "thumbnail-240.png",
+      "width": 240,
+      "height": 240,
+      "bytes": 9615,
+      "sha256": "90d731b4500be6ea19fe2b0deae6e81ee2c3c5ad2d3a1c4a77623b2575b89b93"
+    }
+  ],
+  "fieldLengths": {
+    "appName": 7,
+    "tagline": 15,
+    "description": 230,
+    "builderStory": 780
+  }
+}

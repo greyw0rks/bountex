@@ -1,0 +1,223 @@
+{
+  "checkedAt": "2026-11-05T14:21:18.441Z",
+  "projectRef": "rrjmphvctjnnvmgtnjfk",
+  "migration": "supabase/migrations/001_bountex.sql",
+  "migrationSha256": "4507a3186ce53fb621bb387e6d323f4d0074573b01287ca4bc22f425647a5d97",
+  "migrationHttpStatus": 201,
+  "transactionalInstallation": true,
+  "schemaVerifiedAt": "2026-11-05T14:21:58.303Z",
+  "schemaChecks": {
+    "bucket": {
+      "id": "evidence",
+      "public": false,
+      "file_size_limit": 10485760,
+      "allowed_mime_types": [
+        "image/png",
+        "image/jpeg",
+        "image/webp",
+        "application/pdf",
+        "text/plain"
+      ]
+    },
+    "tables": [
+      {
+        "rls": true,
+        "name": "profiles",
+        "anonSelect": false,
+        "serviceSelect": true,
+        "authenticatedSelect": false
+      },
+      {
+        "rls": true,
+        "name": "challenges",
+        "anonSelect": false,
+        "serviceSelect": true,
+        "authenticatedSelect": false
+      },
+      {
+        "rls": true,
+        "name": "sessions",
+        "anonSelect": false,
+        "serviceSelect": true,
+        "authenticatedSelect": false
+      },
+      {
+        "rls": true,
+        "name": "tasks",
+        "anonSelect": false,
+        "serviceSelect": true,
+        "authenticatedSelect": false
+      },
+      {
+        "rls": true,
+        "name": "uploads",
+        "anonSelect": false,
+        "serviceSelect": true,
+        "authenticatedSelect": false
+      },
+      {
+        "rls": true,
+        "name": "payment_intents",
+        "anonSelect": false,
+        "serviceSelect": true,
+        "authenticatedSelect": false
+      },
+      {
+        "rls": true,
+        "name": "reports",
+        "anonSelect": false,
+        "serviceSelect": true,
+        "authenticatedSelect": false
+      },
+      {
+        "rls": true,
+        "name": "rate_limits",
+        "anonSelect": false,
+        "serviceSelect": true,
+        "authenticatedSelect": false
+      }
+    ],
+    "functions": [
+      {
+        "name": "bountex_begin_payment",
+        "anonExecute": false,
+        "serviceExecute": true,
+        "authenticatedExecute": false
+      },
+      {
+        "name": "bountex_confirm_payment",
+        "anonExecute": false,
+        "serviceExecute": true,
+        "authenticatedExecute": false
+      },
+      {
+        "name": "bountex_create_task",
+        "anonExecute": false,
+        "serviceExecute": true,
+        "authenticatedExecute": false
+      },
+      {
+        "name": "bountex_mutate",
+        "anonExecute": false,
+        "serviceExecute": true,
+        "authenticatedExecute": false
+      },
+      {
+        "name": "bountex_rate_limit",
+        "anonExecute": false,
+        "serviceExecute": true,
+        "authenticatedExecute": false
+      },
+      {
+        "name": "bountex_record_payment",
+        "anonExecute": false,
+        "serviceExecute": true,
+        "authenticatedExecute": false
+      },
+      {
+        "name": "bountex_start_payment",
+        "anonExecute": false,
+        "serviceExecute": true,
+        "authenticatedExecute": false
+      }
+    ],
+    "taskCount": 0,
+    "profileCount": 0,
+    "storagePolicies": []
+  },
+  "postgrestStatus": 200,
+  "postgrestPathsVerified": [
+    "/profiles",
+    "/challenges",
+    "/sessions",
+    "/tasks",
+    "/uploads",
+    "/payment_intents",
+    "/reports",
+    "/rate_limits",
+    "/rpc/bountex_begin_payment",
+    "/rpc/bountex_confirm_payment",
+    "/rpc/bountex_create_task",
+    "/rpc/bountex_mutate",
+    "/rpc/bountex_rate_limit",
+    "/rpc/bountex_record_payment",
+    "/rpc/bountex_start_payment"
+  ],
+  "liveWorkflow": {
+    "checkedAt": "2026-11-05T14:24:03.439Z",
+    "kind": "Automated temporary builder test; not independent users or native wallet acceptance",
+    "passed": [
+      "Unauthenticated task creation rejected",
+      "Three temporary signed-wallet sessions; challenge replay rejected",
+      "Unrecognized request origin rejected",
+      "Publish and single-worker claim; creator and unrelated worker blocked",
+      "Private signed upload and read; public and unrelated-account reads rejected",
+      "Evidence submission, creator-only revision, resubmission and approval",
+      "Logout invalidates server session"
+    ],
+    "cleanupCompleted": true,
+    "realPaymentSent": false,
+    "success": true
+  },
+  "rpc": {
+    "checkedAt": "2026-11-05T14:27:45.379Z",
+    "url": "https://rpc.testnet.nimiqwatch.com/",
+    "network": "testnet",
+    "source": "https://nimiq.dev/rpc/open-servers",
+    "provider": "Nimiq Watch Testnet",
+    "developmentOnly": true,
+    "headHeight": 15972370,
+    "headNetwork": "TestAlbatross",
+    "checkpointHeight": 15972330,
+    "checkpointType": "macro",
+    "transactionLookupVerified": true,
+    "accountLookupVerified": true,
+    "historicalTransactionHash": "022d4ca5fee1a51eb762c5324acc43f53bc8848c108faa9a05ee2ee0d5222173",
+    "historicalTransactionIsBountexPayout": false,
+    "wrongNetworkRejected": true
+  },
+  "liveBrowser": {
+    "checkedAt": "2026-11-05T14:31:12.735Z",
+    "defaultMode": "Testnet · Live",
+    "noSampleTasksInLive": true,
+    "explicitPreviewTasks": 9,
+    "mobileWidth": 390,
+    "noHorizontalOverflow": true,
+    "pageErrors": 0,
+    "screenshots": [
+      "docs/screenshots/live-desktop.png",
+      "docs/screenshots/live-mobile.png"
+    ]
+  },
+  "verification": {
+    "checkedAt": "2026-11-05T14:31:33.043Z",
+    "domainTestsPassed": 48,
+    "browserTestsPassed": 6,
+    "productionBuildPassed": true,
+    "serverCredentialsAbsentFromBuild": true,
+    "finalConfig": {
+      "configured": true,
+      "network": "testnet",
+      "paymentsReady": true
+    },
+    "finalRecordCounts": {
+      "profiles": 0,
+      "tasks": 0,
+      "sessions": 0,
+      "challenges": 0,
+      "uploads": 0,
+      "payment_intents": 0
+    }
+  },
+  "mainnetRpc": {
+    "checkedAt": "2026-11-05T14:59:04.433Z",
+    "url": "https://rpc.nimiqwatch.com/",
+    "headHeight": 66103263,
+    "headNetwork": "MainAlbatross",
+    "checkpointHeight": 66103260,
+    "checkpointType": "macro",
+    "source": "https://nimiq.dev/rpc/open-servers",
+    "developmentOnly": true,
+    "realPaymentSent": false
+  }
+}
