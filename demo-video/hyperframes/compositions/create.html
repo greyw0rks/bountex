@@ -1,0 +1,30 @@
+<template>
+<style>
+@font-face{font-family:'Bountex Display';src:url('assets/fonts/display.woff2') format('woff2');font-weight:300 700}
+@font-face{font-family:'Bountex Body';src:url('assets/fonts/body.woff2') format('woff2');font-weight:100 900}
+#root{position:absolute;inset:0;background:#090d18;color:#f1f4ff;font-family:'Bountex Body',sans-serif}
+.brand{position:absolute;left:140px;top:78px;display:flex;align-items:center;gap:16px;font:700 38px 'Bountex Display',sans-serif}
+.brand img{width:52px;height:52px}.chapter{position:absolute;left:140px;top:225px;font-size:28px;color:#c8ff4d}
+.copy{position:absolute;left:140px;top:296px;width:410px}
+h1{font:700 65px/1.05 'Bountex Display',sans-serif;letter-spacing:-2px;margin:0 0 32px}
+.sub{font-size:28px;line-height:1.45;color:#b8c3e1;margin:0}
+.screen{position:absolute;left:620px;top:172px;width:1164px;height:727.5px;border:1px solid #303a57;border-radius:24px;overflow:hidden;background:#151c2e}
+.screen video{width:100%;height:100%;object-fit:contain;display:block}
+.status{position:absolute;left:140px;top:958px;font-size:28px;line-height:1.4;color:#b8c3e1;margin:0;width:1640px}
+.meter{position:absolute;left:620px;top:924px;width:1164px;height:4px;background:#283248;border-radius:4px;overflow:hidden}
+.fill{height:100%;width:100%;background:#6375ff;transform-origin:left center}
+</style>
+<div id="root" data-composition-id="create" data-width="1920" data-height="1080" data-duration="10.466666666666667" data-composition-variables='[{"id":"title","type":"string","label":"Title","default":"Post a clear mission."},{"id":"subtitle","type":"string","label":"Subtitle","default":"One task · one worker · an offered NIM reward"}]'>
+<div class="brand"><img src="assets/brand/icon.png" alt=""/>Bountex</div>
+<div class="chapter">03 / POST USEFUL WORK</div>
+<div class="copy"><h1 id="create-title" data-var-text="title">Post a clear mission.</h1><p class="sub" data-var-text="subtitle">One task · one worker · an offered NIM reward</p></div>
+<div class="screen"><video id="create-video" class="clip" src="assets/clips/create.mp4" data-start="0" data-duration="10.466666666666667" data-track-index="2" muted playsinline></video></div>
+<div class="meter" data-layout-ignore><div id="create-meter" class="fill"></div></div>
+<p class="status">Recorded preview workflow · Sample tasks and receipt · No NIM transferred</p>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#create-meter',{scaleX:0},{scaleX:1,duration:10.466666666666667,ease:'none'},0);
+window.__timelines['create']=tl;
+</script>
+</template>

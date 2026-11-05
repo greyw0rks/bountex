@@ -1,6 +1,6 @@
 # Bountex MVP status
 
-The application and backend are built and deployed at [bountex.vercel.app](https://bountex.vercel.app), with [public MIT source](https://github.com/greyw0rks/bountex). Supabase is configured; the public mainnet history RPC and hosted API readiness are verified. Native-wallet acceptance remains required.
+The application and backend are built and deployed at [bountex.vercel.app](https://bountex.vercel.app), with [public MIT source](https://github.com/greyw0rks/bountex). Supabase is configured; the public mainnet history RPC and hosted API readiness are verified. The builder confirmed successful native signed-wallet login on November 5, 2026. A complete native task-to-payout acceptance run remains required.
 
 ## Implemented
 
@@ -31,15 +31,17 @@ The application and backend are built and deployed at [bountex.vercel.app](https
 - [x] Clearly separated local preview roles, sample tasks and sample receipts.
 - [x] SQL, signature, RPC and browser acceptance tests.
 - [x] MIT license and Vercel deployment configuration.
+- [x] Public narrated walkthrough, English captions and downloadable MP4.
+- [x] Submission icon, thumbnail, five labeled screenshots and validated text draft.
 
 ## Live acceptance still required
 
 - [x] Configure a real Supabase project and apply the migration.
 - [x] Verify a public testnet history RPC for local development.
 - [x] Verify a public mainnet history RPC for the requested regular Nimiq Pay demo.
-- [ ] Configure a production history RPC on the final deployment's network.
+- [x] Configure a production mainnet history RPC on the final deployment's network.
 - [x] Host an HTTPS deployment.
-- [ ] Open the deployment inside Nimiq Pay and verify native signed login.
+- [x] Open the deployment inside Nimiq Pay and verify native signed login (builder confirmed).
 - [ ] Use two independently controlled wallets for creator and worker.
 - [ ] Connect, sign in, publish, claim, upload, submit and review actual work.
 - [ ] Confirm the host's active HTLC ownership fields match the sender adapter.
@@ -49,7 +51,8 @@ The application and backend are built and deployed at [bountex.vercel.app](https
 - [ ] Inspect live Storage access from an unrelated account.
 - [x] Publish the repository and deploy the current app build.
 - [ ] Recruit genuine creators and workers; classify builder tests separately.
-- [ ] Verify the current official competition rules and exact cutoff.
+- [x] Inspect the current official competition rules and form requirements.
+- [ ] Confirm the exact competition cutoff year and time zone.
 - [ ] Complete the competition entry and authorized promotion.
 
 ## Live backend checks · November 5, 2026
@@ -63,7 +66,7 @@ The Nimiq Watch testnet endpoint is listed by the official developer center for 
 | Milestone                 | Outcome                                                                                      |
 | ------------------------- | -------------------------------------------------------------------------------------------- |
 | Backend configuration     | Live discovery and signed sessions use persistent PostgreSQL                                 |
-| Native testnet acceptance | Complete two-wallet task and payment journey with actual transaction evidence                |
+| Native mainnet acceptance | Complete two-wallet task and payment journey with actual transaction evidence                |
 | Pilot tasks               | Small useful tasks from real creators, with fulfilled submissions and feedback               |
 | Production acceptance     | Same tested code, correct host/network, confirmed receipts and recoverable errors            |
 | Submission                | Current README, public source, deployment URL, genuine demo and verified competition details |

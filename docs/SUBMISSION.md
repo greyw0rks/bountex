@@ -28,11 +28,11 @@ The current MVP has no subscription, paid tier or platform fee. Creators pay the
 
 ## Links and demo
 
-| Field | Current status | Required value |
-| --- | --- | --- |
-| Repo URL | Public MIT source repository. | https://github.com/greyw0rks/bountex |
-| Demo URL | Public HTTPS deployment; mainnet API readiness verified. | https://bountex.vercel.app |
-| Video walkthrough | No uploaded walkthrough is recorded. | Actual publicly viewable YouTube, Loom or Vimeo URL. |
+| Field             | Current status                                                     | Required value                              |
+| ----------------- | ------------------------------------------------------------------ | ------------------------------------------- |
+| Repo URL          | Public MIT source repository.                                      | https://github.com/greyw0rks/bountex        |
+| Demo URL          | Public HTTPS deployment; mainnet API readiness verified.           | https://bountex.vercel.app                  |
+| Video walkthrough | Public captioned walkthrough; labeled sample workflow and receipt. | https://bountex.vercel.app/walkthrough.html |
 
 The current form requires all three links. Its video validation requires a URL, although the general rules page describes a video as optional. Use the requirements of the form when preparing this entry.
 
@@ -40,15 +40,15 @@ The current form requires all three links. Its video validation requires a URL, 
 
 Upload the files in [submission/](submission/) or extract [bountex-submission-assets.zip](submission/bountex-submission-assets.zip).
 
-| Field | File | Dimensions |
-| --- | --- | --- |
-| App icon / favicon | [app-icon-512.png](submission/app-icon-512.png) | 512 × 512 |
-| Thumbnail | [thumbnail-240.png](submission/thumbnail-240.png) | 240 × 240 |
-| Screenshot 1 · Social preview | [01-explore.png](submission/01-explore.png) | See media manifest |
-| Screenshot 2 · Task requirements | [02-task-details.png](submission/02-task-details.png) | See media manifest |
-| Screenshot 3 · Posting a bounty | [03-create-bounty.png](submission/03-create-bounty.png) | See media manifest |
-| Screenshot 4 · Evidence submission | [04-submit-work.png](submission/04-submit-work.png) | See media manifest |
-| Screenshot 5 · Sample receipt | [05-preview-receipt.png](submission/05-preview-receipt.png) | See media manifest |
+| Field                              | File                                                        | Dimensions         |
+| ---------------------------------- | ----------------------------------------------------------- | ------------------ |
+| App icon / favicon                 | [app-icon-512.png](submission/app-icon-512.png)             | 512 × 512          |
+| Thumbnail                          | [thumbnail-240.png](submission/thumbnail-240.png)           | 240 × 240          |
+| Screenshot 1 · Social preview      | [01-explore.png](submission/01-explore.png)                 | See media manifest |
+| Screenshot 2 · Task requirements   | [02-task-details.png](submission/02-task-details.png)       | See media manifest |
+| Screenshot 3 · Posting a bounty    | [03-create-bounty.png](submission/03-create-bounty.png)     | See media manifest |
+| Screenshot 4 · Evidence submission | [04-submit-work.png](submission/04-submit-work.png)         | See media manifest |
+| Screenshot 5 · Sample receipt      | [05-preview-receipt.png](submission/05-preview-receipt.png) | See media manifest |
 
 These are application screenshots using the explicitly labeled local preview workspace. Sample tasks and the preview receipt demonstrate the interface. They are not live marketplace activity or proof of a NIM transfer. Replace them with native-wallet screenshots when that acceptance run is complete.
 
@@ -60,7 +60,7 @@ greyw0rks
 
 **E-mail address**
 
-Enter the email you want the competition organizers to use. It has not been supplied for this draft.
+The builder has confirmed a contact email. The completed contact field is kept in the local submission draft.
 
 **Team name / members**
 
@@ -94,7 +94,11 @@ Building Bountex for the Nimiq Mini Apps Competition. Small tasks, useful work, 
 
 Enter the actual source, or leave blank. No discovery source is assumed.
 
-## Walkthrough recording plan
+## Walkthrough
+
+The [public walkthrough](https://bountex.vercel.app/walkthrough.html) is 69.67 seconds at 1920 × 1080 and 30 fps. It includes narration, 22 English caption cues, and a downloadable MP4. Public playback, byte-range delivery, captions and the hosted mainnet API were verified. The recording uses visible preview labels and does not show a real NIM transfer. Native signed login has been confirmed by the builder separately.
+
+The editable project and review notes are in [demo-video/hyperframes/](../demo-video/hyperframes/). The following plan can be used when replacing the preview footage with a completed native-wallet test.
 
 Record a 60–90 second product walkthrough. Use visible preview labels when demonstrating sample data.
 
@@ -112,20 +116,20 @@ Do not describe a sample receipt as a completed native payment. The [live accept
 
 The form's published client validation was inspected on November 5, 2026:
 
-| Field | Limit / requirement |
-| --- | --- |
-| App name | 80 characters |
-| Tagline | 120 characters |
-| Short description | 280 characters |
-| Pricing | Free, Freemium or Paid |
-| Repo / demo / video | Required valid HTTP(S) URLs; use public, accessible links |
-| Contact email | Required email address |
-| Icon | PNG, JPG or WebP; 512 × 512 |
-| Thumbnail | PNG, JPG, WebP or GIF; 240 × 240 |
-| Screenshots | 3–5 PNG, JPG or WebP images; first used for social preview |
-| Team name / each member / X account | 80 characters each |
-| Builder story | 4,000 characters |
-| Discovery source | 200 characters |
+| Field                               | Limit / requirement                                        |
+| ----------------------------------- | ---------------------------------------------------------- |
+| App name                            | 80 characters                                              |
+| Tagline                             | 120 characters                                             |
+| Short description                   | 280 characters                                             |
+| Pricing                             | Free, Freemium or Paid                                     |
+| Repo / demo / video                 | Required valid HTTP(S) URLs; use public, accessible links  |
+| Contact email                       | Required email address                                     |
+| Icon                                | PNG, JPG or WebP; 512 × 512                                |
+| Thumbnail                           | PNG, JPG, WebP or GIF; 240 × 240                           |
+| Screenshots                         | 3–5 PNG, JPG or WebP images; first used for social preview |
+| Team name / each member / X account | 80 characters each                                         |
+| Builder story                       | 4,000 characters                                           |
+| Discovery source                    | 200 characters                                             |
 
 The [rules](https://miniappscompetition.com/rules) require a public MIT repository and Nimiq Pay integration. The [FAQ](https://miniappscompetition.com/faq) lists Cycle III as October 14–November 11 and explains that the form opens a pull request to the competition repository. The exact year and submission cutoff time zone have not been established by the date-only text inspected here.
 
@@ -134,8 +138,10 @@ The [rules](https://miniappscompetition.com/rules) require a public MIT reposito
 - [x] Publish the actual MIT source repository.
 - [x] Deploy the current build to a public HTTPS URL.
 - Complete native Nimiq Pay wallet and reward-transfer acceptance.
-- Record and upload the real walkthrough; replace preview media when appropriate.
-- Enter the contact email and any actual team / social details.
+- [x] Record, export and host the labeled preview walkthrough with captions.
+- Replace preview media with native-wallet evidence when the acceptance run is complete.
+- [x] Enter the confirmed contact email.
+- Enter any actual team / social details.
 - Add promotion URLs if posts have been published.
 - Re-attach the seven media files; saved text does not retain image attachments.
 - Review the completed form and submit it.

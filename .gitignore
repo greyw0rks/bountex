@@ -13,3 +13,8 @@ test-results/
 demo-video/assets/
 demo-video/sequence-media/
 demo-video/output/
+demo-video/hyperframes/.hyperframes/
+demo-video/hyperframes/.thumbnails/
+demo-video/hyperframes/.waveform-cache/
+demo-video/hyperframes/assets/audio/*
+!demo-video/hyperframes/assets/audio/narration.wav

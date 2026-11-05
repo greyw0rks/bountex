@@ -2,7 +2,7 @@
 
 **Good work pays.** A Nimiq Mini App for useful tasks and direct NIM rewards.
 
-[Open the mainnet demo](https://bountex.vercel.app) · [Competition entry draft](docs/SUBMISSION.md)
+[Open the mainnet demo](https://bountex.vercel.app) · [Watch the walkthrough](https://bountex.vercel.app/walkthrough.html) · [Competition entry draft](docs/SUBMISSION.md)
 
 Bountex lets a creator post a small bounty, a worker claim it and submit evidence, and the creator review and pay the agreed reward through Nimiq Pay. A returned wallet hash stays pending until the backend verifies successful execution, the exact reward and recipient, the task reference, and a canonical macro-block checkpoint.
 
@@ -33,7 +33,7 @@ The `.env` file is hidden by default. Open it with VS Code's **Ctrl+P** or show 
 
 The service-role key belongs **only on the server**. The app uses its own signed-wallet, HttpOnly-cookie sessions; it does not use Supabase Auth. All database tables enable RLS and deny anonymous/authenticated access. The server enforces wallet ownership and task permissions, and uses private, signed URLs for evidence files.
 
-The demo is deployed on Vercel: `npm run build` produces the frontend, and `api/[...path].ts` serves the API. Set the server environment variables in Vercel and set `APP_ORIGIN` to the exact HTTPS origin. Server imports include `.js` extensions so emitted modules resolve correctly in Node's ESM runtime. Production uses mainnet; native-wallet sign-in and a real reward transfer still require acceptance testing.
+The demo is deployed on Vercel: `npm run build` produces the frontend, and `api/[...path].ts` serves the API. Set the server environment variables in Vercel and set `APP_ORIGIN` to the exact HTTPS origin. Server imports include `.js` extensions so emitted modules resolve correctly in Node's ESM runtime. Production uses mainnet. The builder confirmed successful native signed-wallet login on November 5, 2026; a complete native task-to-payout acceptance run is still required.
 
 ## Verify
 

@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-11-05T15:50:29.812Z",
+  "url": "https://bountex.vercel.app/walkthrough.html",
+  "status": 200,
+  "playback": true,
+  "duration": 69.666667,
+  "captions": 22,
+  "width": 1920,
+  "height": 1080,
+  "range": {
+    "status": 206,
+    "type": "video/mp4",
+    "range": "bytes 0-99/5099540"
+  },
+  "config": {
+    "configured": true,
+    "network": "mainnet",
+    "paymentsReady": true
+  },
+  "overflow": false,
+  "errors": []
+}

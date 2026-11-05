@@ -59,5 +59,15 @@
     "tagline": 15,
     "description": 230,
     "builderStory": 780
+  },
+  "walkthrough": {
+    "url": "https://bountex.vercel.app/walkthrough.html",
+    "seconds": 69.666667,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "captions": 22,
+    "usesLabeledPreview": true,
+    "containsRealNimPayment": false
   }
 }

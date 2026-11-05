@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#090d18" />
+    <meta
+      name="description"
+      content="Watch Bountex's task marketplace walkthrough: post a bounty, submit proof, review the work and track NIM rewards."
+    />
+    <title>Bountex — Product walkthrough</title>
+    <link rel="icon" href="/favicon.svg" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #090d18;
+        color: #f1f4ff;
+        font-family: system-ui, sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 1120px;
+        padding: 40px 20px 56px;
+        margin: auto;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 32px;
+      }
+      header img {
+        width: 44px;
+        height: 44px;
+      }
+      header a {
+        font-size: 22px;
+        font-weight: 700;
+        color: #f1f4ff;
+        text-decoration: none;
+      }
+      h1 {
+        font-size: clamp(30px, 5vw, 48px);
+        line-height: 1.15;
+        margin: 0 0 16px;
+        letter-spacing: -0.04em;
+      }
+      p {
+        color: #b8c3e1;
+        max-width: 760px;
+      }
+      video {
+        display: block;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        background: #151c2e;
+        border: 1px solid #303a57;
+        border-radius: 18px;
+        margin: 28px 0;
+      }
+      a {
+        color: #c8ff4d;
+        text-underline-offset: 4px;
+      }
+      a:focus-visible {
+        outline: 3px solid #6375ff;
+        outline-offset: 5px;
+      }
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 28px;
+      }
+      .note {
+        font-size: 14px;
+      }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip-path: inset(50%);
+        white-space: nowrap;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header><img src="/brand/bountex-icon.png" alt="" /><a href="/">Bountex</a></header>
+      <h1>Good work pays.</h1>
+      <p>
+        A 70-second walkthrough of the Bountex task marketplace. Explore useful work, post a bounty,
+        submit evidence, review a submission and see how rewards are tracked.
+      </p>
+      <video
+        controls
+        playsinline
+        preload="metadata"
+        poster="/media/walkthrough-poster.jpg"
+        aria-label="Bountex product walkthrough"
+        aria-describedby="video-note"
+      >
+        <source src="/media/bountex-walkthrough.mp4" type="video/mp4" />
+        <track
+          default
+          kind="captions"
+          src="/media/bountex-walkthrough.vtt"
+          srclang="en"
+          label="English"
+        />
+        <p><a href="/media/bountex-walkthrough.mp4">Download the walkthrough</a>.</p>
+      </video>
+      <p id="video-note" class="note">
+        The recording uses labeled sample tasks and a preview receipt. No NIM was transferred in
+        this video. Signed login inside Nimiq Pay has been confirmed by the builder; a complete live
+        reward-transfer test remains pending.
+      </p>
+      <nav class="links" aria-label="Product links">
+        <a href="/">Open Bountex</a>
+        <a href="https://github.com/greyw0rks/bountex">View the source</a>
+        <a href="/media/bountex-walkthrough.mp4" download>Download MP4</a>
+      </nav>
+    </main>
+  </body>
+</html>

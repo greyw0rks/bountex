@@ -8,7 +8,10 @@
     }
   },
   "rewrites": [
-    { "source": "/((?!api/|assets/|brand/|favicon.svg).*)", "destination": "/index.html" }
+    {
+      "source": "/((?!api/|assets/|brand/|media/|walkthrough.html|favicon.svg).*)",
+      "destination": "/index.html"
+    }
   ],
   "headers": [
     {
